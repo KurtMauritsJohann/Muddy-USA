@@ -7,6 +7,7 @@ library(stringr)
 library(mapproj)
 library(blscrapeR)
 library(prismatic)
+library(plotwidgets)
 
 ca2020 <- read.csv("Documents/MuddyCA2020.csv") %>% as_tibble()
 ca2020_calc <- ca2020 %>% 
@@ -58,11 +59,27 @@ ggplot() +
             linewidth=0.15)
         )
 
+mapcol <- 
+    matrix(
+        hsl2col(
+            clr_extract_hue, 
+            ca2020_calc2$Pmargin, 
+            ifelse(
+                (2 - AdjTotal/upperfence) * 50 <= 50, 
+                50, 
+                (2 - AdjTotal/upperfence) * 50 / 100
+                )
+            ),
+        ncol = 3
+    ) %>%
+    t() #%>%
+
+
 m = map(
     'county', 
-    'california', 
+    'california,*', 
     fill=TRUE, 
     col=palette(), 
-    plot=FALSE
+    plot=TRUE
     )
 
