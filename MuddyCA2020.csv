@@ -1,0 +1,639 @@
+County,Candidate,Party,Votes
+Alameda,Biden,DEM,617659
+Alameda,Trump*,REP,136309
+Alameda,Jorgensen,LIB,6295
+Alameda,Hawkins,GRN,4664
+Alameda,La Riva,PF,2538
+Alameda,De La Fuente Guerra,AI,2399
+Alameda,Carroll,(W/I),127
+Alameda,Ventura,(W/I),29
+Alameda,Charles,(W/I),25
+Alameda,Kishore,(W/I),17
+Alameda,Pierce,(W/I),8
+Alpine,Biden,DEM,476
+Alpine,Trump*,REP,244
+Alpine,Jorgensen,LIB,15
+Alpine,Hawkins,GRN,4
+Alpine,La Riva,PF,2
+Alpine,De La Fuente Guerra,AI,0
+Alpine,Carroll,(W/I),0
+Alpine,Charles,(W/I),0
+Alpine,Kishore,(W/I),0
+Alpine,Pierce,(W/I),0
+Alpine,Ventura,(W/I),0
+Amador,Trump*,REP,13585
+Amador,Biden,DEM,8153
+Amador,Jorgensen,LIB,349
+Amador,Hawkins,GRN,110
+Amador,De La Fuente Guerra,AI,64
+Amador,La Riva,PF,41
+Amador,Carroll,(W/I),1
+Amador,Ventura,(W/I),1
+Amador,Charles,(W/I),0
+Amador,Kishore,(W/I),0
+Amador,Pierce,(W/I),0
+Butte,Biden,DEM,50426
+Butte,Trump*,REP,48730
+Butte,Jorgensen,LIB,1774
+Butte,Hawkins,GRN,507
+Butte,De La Fuente Guerra,AI,324
+Butte,La Riva,PF,281
+Butte,Carroll,(W/I),15
+Butte,Ventura,(W/I),4
+Butte,Pierce,(W/I),3
+Butte,Charles,(W/I),2
+Butte,Kishore,(W/I),0
+Calaveras,Trump*,REP,16518
+Calaveras,Biden,DEM,10046
+Calaveras,Jorgensen,LIB,359
+Calaveras,Hawkins,GRN,125
+Calaveras,De La Fuente Guerra,AI,72
+Calaveras,La Riva,PF,44
+Calaveras,Carroll,(W/I),0
+Calaveras,Charles,(W/I),0
+Calaveras,Kishore,(W/I),0
+Calaveras,Pierce,(W/I),0
+Calaveras,Ventura,(W/I),0
+Colusa,Trump*,REP,4559
+Colusa,Biden,DEM,3239
+Colusa,Jorgensen,LIB,81
+Colusa,De La Fuente Guerra,AI,30
+Colusa,La Riva,PF,27
+Colusa,Hawkins,GRN,25
+Colusa,Carroll,(W/I),0
+Colusa,Charles,(W/I),0
+Colusa,Kishore,(W/I),0
+Colusa,Pierce,(W/I),0
+Colusa,Ventura,(W/I),0
+Contra Costa,Biden,DEM,416386
+Contra Costa,Trump*,REP,152877
+Contra Costa,Jorgensen,LIB,6116
+Contra Costa,Hawkins,GRN,2618
+Contra Costa,De La Fuente Guerra,AI,1949
+Contra Costa,La Riva,PF,1284
+Contra Costa,Carroll,(W/I),57
+Contra Costa,Charles,(W/I),14
+Contra Costa,Ventura,(W/I),10
+Contra Costa,Pierce,(W/I),3
+Contra Costa,Kishore,(W/I),2
+Del Norte,Trump*,REP,6461
+Del Norte,Biden,DEM,4677
+Del Norte,Jorgensen,LIB,150
+Del Norte,Hawkins,GRN,78
+Del Norte,De La Fuente Guerra,AI,53
+Del Norte,La Riva,PF,33
+Del Norte,Carroll,(W/I),1
+Del Norte,Charles,(W/I),0
+Del Norte,Kishore,(W/I),0
+Del Norte,Pierce,(W/I),0
+Del Norte,Ventura,(W/I),0
+El Dorado,Trump*,REP,61838
+El Dorado,Biden,DEM,51621
+El Dorado,Jorgensen,LIB,1871
+El Dorado,Hawkins,GRN,460
+El Dorado,De La Fuente Guerra,AI,240
+El Dorado,La Riva,PF,108
+El Dorado,Carroll,(W/I),15
+El Dorado,Ventura,(W/I),5
+El Dorado,Charles,(W/I),1
+El Dorado,Kishore,(W/I),0
+El Dorado,Pierce,(W/I),0
+Fresno,Biden,DEM,193025
+Fresno,Trump*,REP,164464
+Fresno,Jorgensen,LIB,4031
+Fresno,Hawkins,GRN,1474
+Fresno,De La Fuente Guerra,AI,1147
+Fresno,La Riva,PF,668
+Fresno,Carroll,(W/I),64
+Fresno,Charles,(W/I),32
+Fresno,Ventura,(W/I),10
+Fresno,Pierce,(W/I),2
+Fresno,Kishore,(W/I),0
+Glenn,Trump*,REP,7063
+Glenn,Biden,DEM,3995
+Glenn,Jorgensen,LIB,128
+Glenn,De La Fuente Guerra,AI,39
+Glenn,Hawkins,GRN,34
+Glenn,La Riva,PF,33
+Glenn,Carroll,(W/I),5
+Glenn,Charles,(W/I),0
+Glenn,Kishore,(W/I),0
+Glenn,Pierce,(W/I),0
+Glenn,Ventura,(W/I),0
+Humboldt,Biden,DEM,44768
+Humboldt,Trump*,REP,21770
+Humboldt,Jorgensen,LIB,1132
+Humboldt,Hawkins,GRN,625
+Humboldt,La Riva,PF,282
+Humboldt,De La Fuente Guerra,AI,251
+Humboldt,Carroll,(W/I),7
+Humboldt,Charles,(W/I),6
+Humboldt,Ventura,(W/I),2
+Humboldt,Kishore,(W/I),0
+Humboldt,Pierce,(W/I),0
+Imperial,Biden,DEM,34678
+Imperial,Trump*,REP,20847
+Imperial,Jorgensen,LIB,390
+Imperial,De La Fuente Guerra,AI,291
+Imperial,La Riva,PF,278
+Imperial,Hawkins,GRN,234
+Imperial,Carroll,(W/I),25
+Imperial,Charles,(W/I),0
+Imperial,Kishore,(W/I),0
+Imperial,Pierce,(W/I),0
+Imperial,Ventura,(W/I),0
+Inyo,Biden,DEM,4634
+Inyo,Trump*,REP,4620
+Inyo,Jorgensen,LIB,128
+Inyo,Hawkins,GRN,45
+Inyo,De La Fuente Guerra,AI,32
+Inyo,La Riva,PF,22
+Inyo,Charles,(W/I),2
+Inyo,Carroll,(W/I),1
+Inyo,Kishore,(W/I),0
+Inyo,Pierce,(W/I),0
+Inyo,Ventura,(W/I),0
+Kern,Trump*,REP,164484
+Kern,Biden,DEM,133366
+Kern,Jorgensen,LIB,3942
+Kern,De La Fuente Guerra,AI,1264
+Kern,La Riva,PF,1096
+Kern,Hawkins,GRN,1074
+Kern,Carroll,(W/I),35
+Kern,Charles,(W/I),20
+Kern,Ventura,(W/I),9
+Kern,Pierce,(W/I),2
+Kern,Kishore,(W/I),0
+Kings,Trump*,REP,24072
+Kings,Biden,DEM,18699
+Kings,Jorgensen,LIB,604
+Kings,De La Fuente Guerra,AI,180
+Kings,La Riva,PF,178
+Kings,Hawkins,GRN,125
+Kings,Charles,(W/I),1
+Kings,Pierce,(W/I),1
+Kings,Ventura,(W/I),1
+Kings,Carroll,(W/I),0
+Kings,Kishore,(W/I),0
+Lake,Biden,DEM,14941
+Lake,Trump*,REP,13123
+Lake,Jorgensen,LIB,374
+Lake,Hawkins,GRN,207
+Lake,De La Fuente Guerra,AI,89
+Lake,La Riva,PF,66
+Lake,Charles,(W/I),5
+Lake,Carroll,(W/I),2
+Lake,Pierce,(W/I),2
+Lake,Ventura,(W/I),2
+Lake,Kishore,(W/I),1
+Lassen,Trump*,REP,8970
+Lassen,Biden,DEM,2799
+Lassen,Jorgensen,LIB,141
+Lassen,Hawkins,GRN,31
+Lassen,De La Fuente Guerra,AI,26
+Lassen,La Riva,PF,18
+Lassen,Ventura,(W/I),2
+Lassen,Carroll,(W/I),0
+Lassen,Charles,(W/I),0
+Lassen,Kishore,(W/I),0
+Lassen,Pierce,(W/I),0
+Los Angeles,Biden,DEM,3028885
+Los Angeles,Trump*,REP,1145530
+Los Angeles,Jorgensen,LIB,35452
+Los Angeles,Hawkins,GRN,21660
+Los Angeles,De La Fuente Guerra,AI,15999
+Los Angeles,La Riva,PF,15917
+Los Angeles,Carroll,(W/I),485
+Los Angeles,Ventura,(W/I),208
+Los Angeles,Charles,(W/I),127
+Los Angeles,Pierce,(W/I),72
+Los Angeles,Kishore,(W/I),30
+Madera,Trump*,REP,29378
+Madera,Biden,DEM,23168
+Madera,Jorgensen,LIB,621
+Madera,Hawkins,GRN,217
+Madera,De La Fuente Guerra,AI,173
+Madera,La Riva,PF,165
+Madera,Carroll,(W/I),8
+Madera,Ventura,(W/I),2
+Madera,Charles,(W/I),0
+Madera,Kishore,(W/I),0
+Madera,Pierce,(W/I),0
+Marin,Biden,DEM,128288
+Marin,Trump*,REP,24612
+Marin,Jorgensen,LIB,1536
+Marin,Hawkins,GRN,724
+Marin,De La Fuente Guerra,AI,380
+Marin,La Riva,PF,261
+Marin,Carroll,(W/I),11
+Marin,Ventura,(W/I),9
+Marin,Charles,(W/I),6
+Marin,Pierce,(W/I),3
+Marin,Kishore,(W/I),0
+Mariposa,Trump*,REP,5950
+Mariposa,Biden,DEM,4088
+Mariposa,Jorgensen,LIB,155
+Mariposa,Hawkins,GRN,39
+Mariposa,De La Fuente Guerra,AI,26
+Mariposa,La Riva,PF,22
+Mariposa,Carroll,(W/I),0
+Mariposa,Charles,(W/I),0
+Mariposa,Kishore,(W/I),0
+Mariposa,Pierce,(W/I),0
+Mariposa,Ventura,(W/I),0
+Mendocino,Biden,DEM,28782
+Mendocino,Trump*,REP,13267
+Mendocino,Jorgensen,LIB,591
+Mendocino,Hawkins,GRN,394
+Mendocino,La Riva,PF,179
+Mendocino,De La Fuente Guerra,AI,123
+Mendocino,Ventura,(W/I),3
+Mendocino,Charles,(W/I),1
+Mendocino,Carroll,(W/I),0
+Mendocino,Kishore,(W/I),0
+Mendocino,Pierce,(W/I),0
+Merced,Biden,DEM,48991
+Merced,Trump*,REP,39397
+Merced,Jorgensen,LIB,941
+Merced,La Riva,PF,433
+Merced,De La Fuente Guerra,AI,391
+Merced,Hawkins,GRN,388
+Merced,Carroll,(W/I),10
+Merced,Ventura,(W/I),3
+Merced,Charles,(W/I),0
+Merced,Kishore,(W/I),0
+Merced,Pierce,(W/I),0
+Modoc,Trump*,REP,3109
+Modoc,Biden,DEM,1150
+Modoc,Jorgensen,LIB,39
+Modoc,Hawkins,GRN,15
+Modoc,De La Fuente Guerra,AI,13
+Modoc,La Riva,PF,12
+Modoc,Carroll,(W/I),2
+Modoc,Charles,(W/I),2
+Modoc,Ventura,(W/I),1
+Modoc,Kishore,(W/I),0
+Modoc,Pierce,(W/I),0
+Mono,Biden,DEM,4013
+Mono,Trump*,REP,2513
+Mono,Jorgensen,LIB,126
+Mono,Hawkins,GRN,42
+Mono,De La Fuente Guerra,AI,25
+Mono,La Riva,PF,18
+Mono,Ventura,(W/I),1
+Mono,Carroll,(W/I),0
+Mono,Charles,(W/I),0
+Mono,Kishore,(W/I),0
+Mono,Pierce,(W/I),0
+Monterey,Biden,DEM,113953
+Monterey,Trump*,REP,46299
+Monterey,Jorgensen,LIB,1820
+Monterey,Hawkins,GRN,749
+Monterey,De La Fuente Guerra,AI,566
+Monterey,La Riva,PF,496
+Monterey,Carroll,(W/I),27
+Monterey,Ventura,(W/I),6
+Monterey,Charles,(W/I),5
+Monterey,Kishore,(W/I),2
+Monterey,Pierce,(W/I),0
+Napa,Biden,DEM,49817
+Napa,Trump*,REP,20676
+Napa,Jorgensen,LIB,914
+Napa,Hawkins,GRN,310
+Napa,De La Fuente Guerra,AI,241
+Napa,La Riva,PF,164
+Napa,Carroll,(W/I),22
+Napa,Ventura,(W/I),4
+Napa,Pierce,(W/I),2
+Napa,Charles,(W/I),0
+Napa,Kishore,(W/I),0
+Nevada,Biden,DEM,36359
+Nevada,Trump*,REP,26779
+Nevada,Jorgensen,LIB,919
+Nevada,Hawkins,GRN,345
+Nevada,De La Fuente Guerra,AI,189
+Nevada,La Riva,PF,147
+Nevada,Carroll,(W/I),6
+Nevada,Pierce,(W/I),3
+Nevada,Charles,(W/I),2
+Nevada,Ventura,(W/I),1
+Nevada,Kishore,(W/I),0
+Orange,Biden,DEM,814009
+Orange,Trump*,REP,676498
+Orange,Jorgensen,LIB,17325
+Orange,Hawkins,GRN,5819
+Orange,De La Fuente Guerra,AI,4642
+Orange,La Riva,PF,3432
+Orange,Carroll,(W/I),297
+Orange,Charles,(W/I),44
+Orange,Ventura,(W/I),30
+Orange,Pierce,(W/I),12
+Orange,Kishore,(W/I),5
+Placer,Trump*,REP,122488
+Placer,Biden,DEM,106869
+Placer,Jorgensen,LIB,3948
+Placer,Hawkins,GRN,779
+Placer,De La Fuente Guerra,AI,593
+Placer,La Riva,PF,340
+Placer,Carroll,(W/I),41
+Placer,Charles,(W/I),15
+Placer,Ventura,(W/I),10
+Placer,Pierce,(W/I),1
+Placer,Kishore,(W/I),0
+Plumas,Trump*,REP,6445
+Plumas,Biden,DEM,4561
+Plumas,Jorgensen,LIB,153
+Plumas,Hawkins,GRN,39
+Plumas,De La Fuente Guerra,AI,31
+Plumas,La Riva,PF,27
+Plumas,Carroll,(W/I),3
+Plumas,Pierce,(W/I),1
+Plumas,Charles,(W/I),0
+Plumas,Kishore,(W/I),0
+Plumas,Ventura,(W/I),0
+Riverside,Biden,DEM,528340
+Riverside,Trump*,REP,449144
+Riverside,Jorgensen,LIB,9970
+Riverside,De La Fuente Guerra,AI,3392
+Riverside,Hawkins,GRN,3372
+Riverside,La Riva,PF,2789
+Riverside,Carroll,(W/I),122
+Riverside,Charles,(W/I),12
+Riverside,Ventura,(W/I),10
+Riverside,Pierce,(W/I),4
+Riverside,Kishore,(W/I),1
+Sacramento,Biden,DEM,440808
+Sacramento,Trump*,REP,259405
+Sacramento,Jorgensen,LIB,9770
+Sacramento,Hawkins,GRN,3254
+Sacramento,De La Fuente Guerra,AI,2630
+Sacramento,La Riva,PF,2423
+Sacramento,Carroll,(W/I),95
+Sacramento,Charles,(W/I),22
+Sacramento,Ventura,(W/I),19
+Sacramento,Pierce,(W/I),13
+Sacramento,Kishore,(W/I),1
+San Benito,Biden,DEM,17628
+San Benito,Trump*,REP,10590
+San Benito,Jorgensen,LIB,345
+San Benito,Hawkins,GRN,91
+San Benito,De La Fuente Guerra,AI,84
+San Benito,La Riva,PF,83
+San Benito,Carroll,(W/I),6
+San Benito,Charles,(W/I),2
+San Benito,Ventura,(W/I),1
+San Benito,Kishore,(W/I),0
+San Benito,Pierce,(W/I),0
+San Bernardino,Biden,DEM,455859
+San Bernardino,Trump*,REP,366257
+San Bernardino,Jorgensen,LIB,8791
+San Bernardino,Hawkins,GRN,3619
+San Bernardino,De La Fuente Guerra,AI,3355
+San Bernardino,La Riva,PF,3050
+San Bernardino,Carroll,(W/I),141
+San Bernardino,Ventura,(W/I),33
+San Bernardino,Charles,(W/I),20
+San Bernardino,Kishore,(W/I),3
+San Bernardino,Pierce,(W/I),2
+San Diego,Biden,DEM,964650
+San Diego,Trump*,REP,600094
+San Diego,Jorgensen,LIB,21386
+San Diego,Hawkins,GRN,7421
+San Diego,De La Fuente Guerra,AI,5302
+San Diego,La Riva,PF,2869
+San Diego,Carroll,(W/I),275
+San Diego,Charles,(W/I),51
+San Diego,Ventura,(W/I),49
+San Diego,Kishore,(W/I),30
+San Diego,Pierce,(W/I),16
+San Francisco,Biden,DEM,378156
+San Francisco,Trump*,REP,56417
+San Francisco,Jorgensen,LIB,3299
+San Francisco,Hawkins,GRN,2781
+San Francisco,La Riva,PF,1543
+San Francisco,De La Fuente Guerra,AI,1262
+San Francisco,Carroll,(W/I),48
+San Francisco,Ventura,(W/I),18
+San Francisco,Charles,(W/I),17
+San Francisco,Pierce,(W/I),7
+San Francisco,Kishore,(W/I),5
+San Joaquin,Biden,DEM,161137
+San Joaquin,Trump*,REP,121098
+San Joaquin,Jorgensen,LIB,2929
+San Joaquin,De La Fuente Guerra,AI,1251
+San Joaquin,Hawkins,GRN,1064
+San Joaquin,La Riva,PF,964
+San Joaquin,Carroll,(W/I),34
+San Joaquin,Charles,(W/I),8
+San Joaquin,Ventura,(W/I),7
+San Joaquin,Kishore,(W/I),0
+San Joaquin,Pierce,(W/I),0
+San Luis Obispo,Biden,DEM,88310
+San Luis Obispo,Trump*,REP,67436
+San Luis Obispo,Jorgensen,LIB,2408
+San Luis Obispo,Hawkins,GRN,794
+San Luis Obispo,De La Fuente Guerra,AI,455
+San Luis Obispo,La Riva,PF,278
+San Luis Obispo,Carroll,(W/I),22
+San Luis Obispo,Charles,(W/I),7
+San Luis Obispo,Ventura,(W/I),3
+San Luis Obispo,Kishore,(W/I),1
+San Luis Obispo,Pierce,(W/I),0
+San Mateo,Biden,DEM,291496
+San Mateo,Trump*,REP,75584
+San Mateo,Jorgensen,LIB,3554
+San Mateo,Hawkins,GRN,1595
+San Mateo,De La Fuente Guerra,AI,1145
+San Mateo,La Riva,PF,797
+San Mateo,Carroll,(W/I),59
+San Mateo,Ventura,(W/I),12
+San Mateo,Charles,(W/I),4
+San Mateo,Pierce,(W/I),3
+San Mateo,Kishore,(W/I),2
+Santa Barbara,Biden,DEM,129963
+Santa Barbara,Trump*,REP,65736
+Santa Barbara,Jorgensen,LIB,2416
+Santa Barbara,Hawkins,GRN,939
+Santa Barbara,De La Fuente Guerra,AI,714
+Santa Barbara,La Riva,PF,520
+Santa Barbara,Carroll,(W/I),35
+Santa Barbara,Charles,(W/I),7
+Santa Barbara,Ventura,(W/I),7
+Santa Barbara,Kishore,(W/I),2
+Santa Barbara,Pierce,(W/I),0
+Santa Clara,Biden,DEM,617967
+Santa Clara,Trump*,REP,214612
+Santa Clara,Jorgensen,LIB,9131
+Santa Clara,Hawkins,GRN,4040
+Santa Clara,De La Fuente Guerra,AI,2623
+Santa Clara,La Riva,PF,2149
+Santa Clara,Carroll,(W/I),151
+Santa Clara,Ventura,(W/I),29
+Santa Clara,Charles,(W/I),24
+Santa Clara,Kishore,(W/I),8
+Santa Clara,Pierce,(W/I),7
+Santa Cruz,Biden,DEM,114246
+Santa Cruz,Trump*,REP,26937
+Santa Cruz,Jorgensen,LIB,1704
+Santa Cruz,Hawkins,GRN,1062
+Santa Cruz,De La Fuente Guerra,AI,434
+Santa Cruz,La Riva,PF,413
+Santa Cruz,Carroll,(W/I),17
+Santa Cruz,Ventura,(W/I),9
+Santa Cruz,Charles,(W/I),8
+Santa Cruz,Pierce,(W/I),4
+Santa Cruz,Kishore,(W/I),3
+Shasta,Trump*,REP,60789
+Shasta,Biden,DEM,30000
+Shasta,Jorgensen,LIB,1277
+Shasta,Hawkins,GRN,368
+Shasta,De La Fuente Guerra,AI,281
+Shasta,La Riva,PF,185
+Shasta,Carroll,(W/I),14
+Shasta,Charles,(W/I),6
+Shasta,Ventura,(W/I),6
+Shasta,Pierce,(W/I),4
+Shasta,Kishore,(W/I),0
+Sierra,Trump*,REP,1142
+Sierra,Biden,DEM,730
+Sierra,Jorgensen,LIB,27
+Sierra,Hawkins,GRN,13
+Sierra,De La Fuente Guerra,AI,12
+Sierra,La Riva,PF,6
+Sierra,Charles,(W/I),1
+Sierra,Carroll,(W/I),0
+Sierra,Kishore,(W/I),0
+Sierra,Pierce,(W/I),0
+Sierra,Ventura,(W/I),0
+Siskiyou,Trump*,REP,13290
+Siskiyou,Biden,DEM,9593
+Siskiyou,Jorgensen,LIB,318
+Siskiyou,Hawkins,GRN,116
+Siskiyou,De La Fuente Guerra,AI,79
+Siskiyou,La Riva,PF,54
+Siskiyou,Carroll,(W/I),16
+Siskiyou,Charles,(W/I),3
+Siskiyou,Pierce,(W/I),2
+Siskiyou,Ventura,(W/I),1
+Siskiyou,Kishore,(W/I),0
+Solano,Biden,DEM,131639
+Solano,Trump*,REP,69306
+Solano,Jorgensen,LIB,2475
+Solano,Hawkins,GRN,958
+Solano,De La Fuente Guerra,AI,825
+Solano,La Riva,PF,628
+Solano,Carroll,(W/I),37
+Solano,Ventura,(W/I),4
+Solano,Charles,(W/I),3
+Solano,Kishore,(W/I),1
+Solano,Pierce,(W/I),1
+Sonoma,Biden,DEM,199938
+Sonoma,Trump*,REP,61825
+Sonoma,Jorgensen,LIB,3418
+Sonoma,Hawkins,GRN,1499
+Sonoma,De La Fuente Guerra,AI,832
+Sonoma,La Riva,PF,740
+Sonoma,Carroll,(W/I),32
+Sonoma,Charles,(W/I),16
+Sonoma,Ventura,(W/I),15
+Sonoma,Kishore,(W/I),1
+Sonoma,Pierce,(W/I),1
+Stanislaus,Biden,DEM,105841
+Stanislaus,Trump*,REP,104145
+Stanislaus,Jorgensen,LIB,2494
+Stanislaus,De La Fuente Guerra,AI,926
+Stanislaus,Hawkins,GRN,742
+Stanislaus,La Riva,PF,728
+Stanislaus,Carroll,(W/I),62
+Stanislaus,Ventura,(W/I),9
+Stanislaus,Charles,(W/I),7
+Stanislaus,Kishore,(W/I),0
+Stanislaus,Pierce,(W/I),0
+Sutter,Trump*,REP,24375
+Sutter,Biden,DEM,17367
+Sutter,Jorgensen,LIB,521
+Sutter,Hawkins,GRN,136
+Sutter,De La Fuente Guerra,AI,126
+Sutter,La Riva,PF,115
+Sutter,Carroll,(W/I),3
+Sutter,Ventura,(W/I),1
+Sutter,Charles,(W/I),0
+Sutter,Kishore,(W/I),0
+Sutter,Pierce,(W/I),0
+Tehama,Trump*,REP,19141
+Tehama,Biden,DEM,8911
+Tehama,Jorgensen,LIB,403
+Tehama,De La Fuente Guerra,AI,111
+Tehama,Hawkins,GRN,90
+Tehama,La Riva,PF,65
+Tehama,Carroll,(W/I),7
+Tehama,Charles,(W/I),2
+Tehama,Ventura,(W/I),1
+Tehama,Kishore,(W/I),0
+Tehama,Pierce,(W/I),0
+Trinity,Trump*,REP,3188
+Trinity,Biden,DEM,2851
+Trinity,Jorgensen,LIB,117
+Trinity,Hawkins,GRN,50
+Trinity,De La Fuente Guerra,AI,27
+Trinity,La Riva,PF,25
+Trinity,Ventura,(W/I),1
+Trinity,Carroll,(W/I),0
+Trinity,Charles,(W/I),0
+Trinity,Kishore,(W/I),0
+Trinity,Pierce,(W/I),0
+Tulare,Trump*,REP,77579
+Tulare,Biden,DEM,66105
+Tulare,Jorgensen,LIB,1498
+Tulare,De La Fuente Guerra,AI,632
+Tulare,La Riva,PF,535
+Tulare,Hawkins,GRN,483
+Tulare,Carroll,(W/I),46
+Tulare,Charles,(W/I),4
+Tulare,Ventura,(W/I),2
+Tulare,Pierce,(W/I),1
+Tulare,Kishore,(W/I),0
+Tuolumne,Trump*,REP,17689
+Tuolumne,Biden,DEM,11978
+Tuolumne,Jorgensen,LIB,439
+Tuolumne,Hawkins,GRN,145
+Tuolumne,De La Fuente Guerra,AI,91
+Tuolumne,La Riva,PF,59
+Tuolumne,Carroll,(W/I),4
+Tuolumne,Charles,(W/I),2
+Tuolumne,Ventura,(W/I),1
+Tuolumne,Kishore,(W/I),0
+Tuolumne,Pierce,(W/I),0
+Ventura,Biden,DEM,251388
+Ventura,Trump*,REP,162207
+Ventura,Jorgensen,LIB,5069
+Ventura,Hawkins,GRN,1766
+Ventura,De La Fuente Guerra,AI,1278
+Ventura,La Riva,PF,990
+Ventura,Carroll,(W/I),84
+Ventura,Ventura,(W/I),17
+Ventura,Charles,(W/I),16
+Ventura,Kishore,(W/I),5
+Ventura,Pierce,(W/I),5
+Yolo,Biden,DEM,67598
+Yolo,Trump*,REP,27292
+Yolo,Jorgensen,LIB,1206
+Yolo,Hawkins,GRN,547
+Yolo,La Riva,PF,323
+Yolo,De La Fuente Guerra,AI,298
+Yolo,Carroll,(W/I),24
+Yolo,Charles,(W/I),3
+Yolo,Ventura,(W/I),2
+Yolo,Kishore,(W/I),1
+Yolo,Pierce,(W/I),0
+Yuba,Trump*,REP,17676
+Yuba,Biden,DEM,11230
+Yuba,Jorgensen,LIB,510
+Yuba,De La Fuente Guerra,AI,153
+Yuba,Hawkins,GRN,124
+Yuba,La Riva,PF,94
+Yuba,Carroll,(W/I),4
+Yuba,Charles,(W/I),4
+Yuba,Ventura,(W/I),1
+Yuba,Kishore,(W/I),0
+Yuba,Pierce,(W/I),0
