@@ -5,4 +5,4 @@ Using HSL color theory to create a county map of the 2020 US Presidential electi
 
 The goal is to not only recreate the map from the original blog post, but also to extend it to all US Presidential elections based on publically available election data, and potentially adding analysis over time of which counties with low margins of victory have the largest effect on winning a state, and even account for effects from third-party candidates.
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](URL)
+[![This blog post](https://stemlounge.com/muddy-america-color-balancing-trumps-election-map-infographic/)](URL)
