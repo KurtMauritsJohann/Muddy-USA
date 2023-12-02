@@ -1,0 +1,240 @@
+---
+title: "Muddy US Electoral Map"
+author: "Nathan Harbert"
+date: "11/9/2023"
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r}
+library(readxl)
+library(tidyr)
+library(dplyr)
+library(maps)
+library(usmap)
+library(stringr)
+library(snakecase)
+library(prismatic)
+library(plotwidgets)
+
+ca2020 <- read_excel("U:/R/MuddyUS_CA2020.xlsx")
+ca2020_piv <- 
+  pivot_longer(
+    ca2020, 
+    cols = Biden:Ventura, 
+    names_to = "Candidate", 
+    values_to = "Votes"
+    )
+
+ca2020_piv1 <- ca2020_piv %>% 
+  filter(Candidate %in% c("Biden", "Trump")) %>%
+  group_by(County) %>% 
+  summarise(AdjTotal = sum(Votes)) %>% 
+  left_join(ca2020_piv, ) %>% 
+  select(County, Candidate, Votes, AdjTotal) %>% 
+  mutate(AdjPct = Votes / AdjTotal) %>%
+  filter(Candidate %in% c("Biden", "Trump")) %>%
+  mutate(Vmargin = 2*Votes - AdjTotal, Pmargin = 2*AdjPct - 1) %>% 
+  filter(AdjPct >= 0.50)
+
+m = map("county", regions = "california,*", fill = TRUE, plot = FALSE, projection = "azequalarea")
+#which projection from mapproject for correct land area? By whose standard of correct?
+#area preserving?
+area.map(m, regions = m$names, sqmi = TRUE)
+countyarea <- area.map(m, regions = m$names, sqmi = TRUE) %>% as.data.frame()
+colnames(countyarea) <- "Area" #square miles
+countyarea$County <- rownames(countyarea) %>% str_remove("california,") %>% to_title_case()
+rownames(countyarea) <- 1:nrow(countyarea)
+countyarea <- countyarea %>% select(County, Area)
+#to_title_case(str_remove(names(area.map(m, regions = m$names, sqmi = TRUE)), "california,"))
+
+#density by adjtotal
+ca2020_piv2 <- 
+  ca2020_piv1 %>% 
+  left_join(countyarea) %>% 
+  mutate(
+    Vdensity = AdjTotal/Area,
+    County = str_c("california,", tolower(County))
+    ) %>% 
+  select(County, Candidate, Pmargin, Vdensity)
+
+#upperfence of vote density for all US counties in 2020: 50.66 sq km = 19.56 sq mi
+upperfence = 19.56
+
+summary(ca2020_piv2$Vdensity)
+IQR(ca2020_piv2$Vdensity)
+#upper fence: Q3 + 3 * IQR
+summary(ca2020_piv2$Vdensity)[5] + 1.5 * IQR(ca2020_piv2$Vdensity)
+
+#muddycolor = hsl2col(
+#clr_extract_hue(ifelse(ca2020_piv2$Candidate == "Biden", "#0000ff", "#ff0000")),
+#ca2020_piv2$Pmargin,
+#ifelse((2 - ca2020_piv2$Vdensity/upperfence) * 50 <= 50, 50, (2 - ca2020_piv2$Vdensity/upperfence) * 50) / 100
+#)
+#hue: red or blue
+#saturation: % margin of victory (Dem % + Rep % only) (0-100%)
+#lightness: vote density up to upper fence, adjusted to % (Dem + Rep votes only) (50-100%)
+#(2 - Vdensity/upperfence) * 50
+
+#double check lightness calculation
+mapcol <- matrix(
+  c(
+    clr_extract_hue(ifelse(ca2020_piv2$Candidate == "Biden", "#0000ff", "#ff0000")), 
+    ca2020_piv2$Pmargin, 
+    ifelse(
+      (2 - ca2020_piv2$Vdensity/upperfence) * 50 <= 50, 
+      50, 
+      (2 - ca2020_piv2$Vdensity/upperfence) * 50
+      ) / 100
+    ),
+  ncol = 3
+  ) %>% 
+  t() %>% 
+  hsl2col()
+
+m1 = map(
+  "county", 
+  regions = ca2020_piv2$County, 
+  #projection = "azequalarea",
+  fill = TRUE, 
+  col = mapcol,
+  plot = TRUE, 
+  #border = 
+  )
+
+
+#county_map_data
+
+#need area in sq mi or sq km of each county
+
+# us_map <- county_map_data
+# ggplot() +
+#     geom_map(
+#         data = us_map,
+#         map = us_map,
+#         aes(
+#             x=long,
+#             y=lat,
+#             map_id=id,
+#             group=group,
+#             fill="#ffffff",
+#             color="#0e0e0e",
+#             linewidth=0.15)
+#         )
+
+m2 = map("county", fill = TRUE, plot = FALSE)
+uscounty <- as.data.frame(m2$names)
+colnames(uscounty) <- "County"
+for (i in 1:nrow(uscounty))
+  uscounty$Area[i] <- area.map(m2, regions = uscounty$County[i], sqmi = TRUE)[[1]]
+
+```
+
+---
+title: "Muddy US Electoral Map"
+author: "Nathan Harbert"
+date: "11/9/2023"
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r}
+library(readxl)
+library(tidyr)
+library(dplyr)
+library(maps)
+library(usmap)
+library(stringr)
+library(snakecase)
+library(prismatic)
+library(plotwidgets)
+
+ca2020 <- read_excel("U:/R/MuddyUS_CA2020.xlsx")
+ca2020_piv <- 
+  pivot_longer(
+    ca2020, 
+    cols = Biden:Ventura, 
+    names_to = "Candidate", 
+    values_to = "Votes"
+    )
+
+ca2020_piv1 <- ca2020_piv %>% 
+  group_by(County) %>% 
+  filter(Candidate %in% c("Biden", "Trump")) %>%
+  summarise(AdjTotal = sum(Votes)) %>% 
+  left_join(ca2020_piv, ) %>% 
+  select(County, Candidate, Votes, AdjTotal) %>% 
+  mutate(AdjPct = Votes / AdjTotal) %>%
+  filter(Candidate %in% c("Biden", "Trump")) %>%
+  mutate(Vmargin = 2*Votes - AdjTotal, Pmargin = 2*AdjPct - 1) %>% 
+  filter(AdjPct >= 0.50)
+
+m = map("county", regions = "california,*", fill = TRUE, plot = FALSE, projection = "azequalarea")
+#which projection from mapproject for correct land area? By whose standard of correct?
+#area preserving?
+area.map(m, regions = m$names, sqmi = TRUE)
+countyarea <- area.map(m, regions = m$names, sqmi = TRUE) %>% as.data.frame()
+colnames(countyarea) <- "Area" #square miles
+countyarea$County <- rownames(countyarea) %>% str_remove("california,") %>% to_title_case()
+rownames(countyarea) <- 1:nrow(countyarea)
+countyarea <- countyarea %>% select(County, Area)
+#to_title_case(str_remove(names(area.map(m, regions = m$names, sqmi = TRUE)), "california,"))
+
+#density by adjtotal
+ca2020_piv2 <- 
+  ca2020_piv1 %>% 
+  left_join(countyarea) %>% 
+  mutate(
+    Vdensity = AdjTotal/Area,
+    County = str_c("california,", tolower(County))
+    ) %>% 
+  select(County, Candidate, Pmargin, Vdensity)
+
+#upperfence of vote density for all US counties in 2020: 50.66 sq km = 19.56 sq mi
+upperfence = 19.56
+
+summary(ca2020_piv2$Vdensity)
+IQR(ca2020_piv2$Vdensity)
+#upper fence: Q3 + 3 * IQR
+summary(ca2020_piv2$Vdensity)[5] + 1.5 * IQR(ca2020_piv2$Vdensity)
+
+#muddycolor = hsl2col(
+#clr_extract_hue(ifelse(ca2020_piv2$Candidate == "Biden", "#0000ff", "#ff0000")),
+#ca2020_piv2$Pmargin,
+#ifelse((2 - ca2020_piv2$Vdensity/upperfence) * 50 <= 50, 50, (2 - ca2020_piv2$Vdensity/upperfence) * 50) / 100
+#)
+#hue: red or blue
+#saturation: % margin of victory (Dem % + Rep % only) (0-100%)
+#lightness: vote density up to upper fence, adjusted to % (Dem + Rep votes only) (50-100%)
+#(2 - Vdensity/upperfence) * 50
+
+#double check lightness calculation
+mapcol <- matrix(
+  c(
+    clr_extract_hue(ifelse(ca2020_piv2$Candidate == "Biden", "#0000ff", "#ff0000")), 
+    ca2020_piv2$Pmargin, 
+    ifelse(
+      (2 - ca2020_piv2$Vdensity/upperfence) * 50 <= 50, 
+      50, 
+      (2 - ca2020_piv2$Vdensity/upperfence) * 50
+      ) / 100
+    ),
+  ncol = 3
+  ) %>% 
+  t() %>% 
+  hsl2col()
+
+m1 = map(
+  "county", 
+  regions = ca2020_piv2$County, 
+  #projection = "azequalarea",
+  fill = TRUE, 
+  col = mapcol,
+  plot = TRUE, 
+  #border = 
+  )
+
+```
+

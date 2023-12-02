@@ -81,7 +81,7 @@ ca2020_calc2 <-
         ) %>%
     select(County, Party, Pmargin, Vdensity)
 
-#upperfence of vote density for all US counties in 2020: 50.66 sq km = 19.56 sq mi
+#upperfence of vote density for all US counties in 2020: 50.66 votes/km^2 = 19.56 votes/mi^2
 upperfence = 19.56
 #upper fence: Q3 + 3 * IQR
 #summary(ca2020_calc2$Vdensity)
@@ -118,6 +118,10 @@ mapcol <- matrix(
     t() %>%
     hsl2col()
 
+mapbord <- mapcol %>% col2hsl() %>% t()
+mapbord[,3] <- replace(mapbord[,3], 1:length(mapbord[,3]), 0.5)
+mapbord <- mapbord %>% t() %>% hsl2col()
+
 m1 = map(
   "county", 
   regions = ca2020_calc2$County, 
@@ -125,5 +129,5 @@ m1 = map(
   fill = TRUE, 
   col = mapcol,
   plot = TRUE, 
-  #border = 
+  border = mapbord
   )
