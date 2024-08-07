@@ -38,14 +38,14 @@ ca2020_calc2 <-
     filter(AdjPct >= 0.50) %>%
     select(County, Party, Pmargin, AdjTotal)
 
-ca2020_calc2 <- 
-    ca2020_calc %>% 
-    mutate(
-        AdjPct = Votes/AdjTotal, 
-        Pmargin = abs(2 * AdjPct - 1)
-        ) %>% 
-    filter(AdjPct >= 0.50) %>% 
-    select(County, Party, Pmargin, AdjTotal)
+#ca2020_calc2 <- 
+#    ca2020_calc %>% 
+#    mutate(
+#        AdjPct = Votes/AdjTotal, 
+#        Pmargin = abs(2 * AdjPct - 1)
+#        ) %>% 
+#    filter(AdjPct >= 0.50) %>% 
+#    select(County, Party, Pmargin, AdjTotal)
 
 m = map(
     "county", 
